@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0NXBbtZw03upoG6B4VaNpFxIaPyKC6oXOo_JRVngbkNYQmx71eYe3YmZSSAOgDjj9-dE&usqp=CAU);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  color: white !important;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.form-login {
+  background-color: rgba(20, 195, 210, 0.3);
+  padding: 80px;
+  border-radius: 15px;
+}
+.form-login input {
+  width: 360px;
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+
+}
+
+.form-login input::placeholder{
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}

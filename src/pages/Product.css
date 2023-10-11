@@ -1,0 +1,30 @@
+.product {
+  height: 100vh;
+}
+
+.cart-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.product-span{
+display: flex;
+justify-content: center;
+
+}
+
+.price_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-lazy{
+    margin-left: 80px;
+}
+
+.ReactModal__Content{
+    width: 450px;
+    margin: 0 auto;
+}
